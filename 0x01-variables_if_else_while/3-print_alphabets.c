@@ -16,11 +16,10 @@ int main(void)
 	{
 		putchar(alph_lower[i]);
 	}
-
 	for (i = 0; i < 26; i++)
 	{
-                putchar(alph_upper[i]);
-        }
+		puchar(alph_upper[i]);
+	}
 	putchar('\n');
 	return (0);
 }
