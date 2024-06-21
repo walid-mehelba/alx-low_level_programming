@@ -19,7 +19,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-                putchar(alph_lower[i]);
+                putchar(alph_upper[i]);
         }
 	putchar('\n');
 	return (0);
