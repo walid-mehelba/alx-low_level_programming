@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	char alph_lower = "abcdefghijklmnopqrstuvwxyz";
-	char alph_upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alph_lower[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alph_upper[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 26; i++)
