@@ -8,7 +8,7 @@
   * main - Gets the last digit of a random generated number
   * check if it is greater than 5, less than 6, or 0.
   *
-  * Returns: Always 0 (seccess).
+  * Return: Always 0 (seccess).
   */
 
 int main(void)
