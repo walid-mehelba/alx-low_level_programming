@@ -1,26 +1,15 @@
 #include "main.h"
+
 /**
- * _strstr - Entry point
- * @haystack: input
- * @needle: input
- * Return: Always 0 (Success)
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
-char *_strstr(char *haystack, char *needle)
+int _abs(int n)
 {
-	for (; *haystack != '\0'; haystack++)
+	if (n >= 0)
 	{
-		char *l = haystack;
-		char *p = needle;
-
-		while (*l == *p && *p != '\0')
-		{
-			l++;
-			p++;
-		}
-
-		if (*p == '\0')
-			return (haystack);
+		return (n);
 	}
-
-	return (0);
+	return (-n);
 }
